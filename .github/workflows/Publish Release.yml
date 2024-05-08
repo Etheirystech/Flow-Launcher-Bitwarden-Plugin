@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Set up Node.Js
         uses: actions/setup-node@v2
         with:
@@ -29,7 +29,7 @@ jobs:
           npm install
           zip -r Flow.Launcher.Plugin.Bitwarden-TS.zip . -x '*.git*'
       - name: Publish
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: 'Flow.Launcher.Plugin.Bitwarden-TS.zip'
           tag_name: "v${{steps.version.outputs.prop}}"
