@@ -8,5 +8,5 @@ Then right click inside the folder and click open in terminal and enter this com
 ```
 Make sure to use( `''` ) (yubico auth also works).
 If you don't have 2FA you can remove the `--code` part.   
-For logout just enter `bw logout`   
+For logout just enter `.\bw.exe logout`   
    
