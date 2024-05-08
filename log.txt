@@ -1,3 +1,0 @@
-exec error: Error: Command failed: netstat -aon | findstr "58765"
-
-
