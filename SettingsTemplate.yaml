@@ -1,0 +1,33 @@
+body:
+  - type: dropdown
+    attributes:
+      name: cache_ttl
+      label: 'Cache duration:'
+      defaultValue: 5 minutes
+      options:
+        - 5 minutes
+        - 15 minutes
+        - 30 minutes
+        - 1 hour
+        - 6 hours
+        - 12 hours
+        - 1 day
+        - Indefinite
+  - type: input
+    attributes:
+      name: bitwardenEmail
+      label: Your Bitwarden email
+      description: Used for signing in to your Bitwarden
+  - type: input
+    attributes:
+      name: bitwardenPassword
+      label: Password
+      description: Used for signing in to your Bitwarden
+  - type: input
+    attributes:
+      name: bitwardenServerPort
+      label: Port
+      description: >-
+        Port on which Bitwarden server would run on. Make sure that you are not
+        port forwarding this port.
+      defaultValue: '58765'

@@ -1,0 +1,12 @@
+{
+  "ID": "56c1f56f-8699-4ab1-8e7e-88b7d10db754",
+  "ActionKeyword": "bw",
+  "Name": "Bitwarden-TS",
+  "Description": "Access Bitwarden with Flow Launcher, made with TypeScript/JavaScript",
+  "Author": "Megumin",
+  "Version": "1.0.0",
+  "Language": "TypeScript_V2",
+  "Website": "https://github.com/Etheirystech/Flow-Launcher-Bitwarden-Plugin",
+  "ExecuteFileName": "src/index.js",
+  "IcoPath": "./icon.png"
+}
